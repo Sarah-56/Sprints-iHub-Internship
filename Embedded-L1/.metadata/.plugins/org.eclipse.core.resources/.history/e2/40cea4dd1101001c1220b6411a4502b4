@@ -1,0 +1,15 @@
+/*
+ * XO.h
+ * Created on: Aug 19, 2021
+ * Author    : Sarah Mohamed
+ */
+
+#ifndef XO_H_
+#define XO_H_
+
+
+void displayBoard(void);
+char checkWin(void);
+
+
+#endif /* XO_H_ */
