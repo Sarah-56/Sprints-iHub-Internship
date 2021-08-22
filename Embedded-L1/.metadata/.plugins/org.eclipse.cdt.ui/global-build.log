@@ -1,380 +1,47 @@
-01:52:10 **** Rebuild of configuration Debug for project XOGame ****
+23:30:14 **** Incremental Build of configuration Debug for project Stack ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe main.o 
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-15:49:04 **** Incremental Build of configuration Debug for project XOGame ****
+..\main.c: In function 'isBalanced':
+..\main.c:71:10: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+   71 |  uint8_t ch;
+      |          ^~
+gcc -o Stack.exe main.o stack_APIs.o 
+Info: Nothing to build for Stack
+Info: Nothing to build for Stack
+23:42:52 **** Incremental Build of configuration Debug for project Stack ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:34:21: warning: comparison between pointer and integer
-   34 |   if (board[choice] != 'X' || board[choice] != 'O'){
-      |                     ^~
-..\main.c:34:45: warning: comparison between pointer and integer
-   34 |   if (board[choice] != 'X' || board[choice] != 'O'){
-      |                                             ^~
-..\main.c:35:18: error: assignment to expression with array type
-   35 |    board[choice] = xoro;
-      |                  ^
-19:15:23 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-..\XO.c: In function 'displayBoard':
-..\XO.c:14:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-   14 |    printf(" %c | %c | %c ",board[t][0], board[t][1], board [t][2]);
-      |    ^~~~~~
-..\XO.c:14:4: warning: incompatible implicit declaration of built-in function 'printf'
-..\XO.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-  +++ |+#include <stdio.h>
-    1 | /*
-..\XO.c:14:28: error: 'board' undeclared (first use in this function)
-   14 |    printf(" %c | %c | %c ",board[t][0], board[t][1], board [t][2]);
-      |                            ^~~~~
-..\XO.c:14:28: note: each undeclared identifier is reported only once for each function it appears in
-..\XO.c:17:5: warning: incompatible implicit declaration of built-in function 'printf'
-   17 |     printf("\n");
-      |     ^~~~~~
-..\XO.c:17:5: note: include '<stdio.h>' or provide a declaration of 'printf'
-..\XO.c: In function 'checkWin':
-..\XO.c:36:6: error: 'board' undeclared (first use in this function)
-   36 |   if(board[i][0] == board[i][1] && board[i][0] == board[i][2]){
-      |      ^~~~~
-19:21:30 **** Incremental Build of configuration Debug for project XOGame ****
+..\main.c: In function 'isBalanced':
+..\main.c:71:10: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+   71 |  uint8_t ch;
+      |          ^~
+gcc -o Stack.exe main.o stack_APIs.o 
+Info: Nothing to build for Stack
+23:45:53 **** Incremental Build of configuration Debug for project Stack ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:25:7: warning: variable 'xoro' set but not used [-Wunused-but-set-variable]
-   25 |  char xoro;
-      |       ^~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-..\XO.c: In function 'displayBoard':
-..\XO.c:16:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-   16 |    printf(" %c | %c | %c ",board[t][0], board[t][1], board [t][2]);
-      |    ^~~~~~
-..\XO.c:16:4: warning: incompatible implicit declaration of built-in function 'printf'
-..\XO.c:8:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-    7 | #include "xo.h"
-  +++ |+#include <stdio.h>
-    8 | 
-..\XO.c:19:5: warning: incompatible implicit declaration of built-in function 'printf'
-   19 |     printf("\n");
-      |     ^~~~~~
-..\XO.c:19:5: note: include '<stdio.h>' or provide a declaration of 'printf'
-gcc -o XOGame.exe XO.o main.o 
-19:22:08 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:22:7: warning: variable 'xoro' set but not used [-Wunused-but-set-variable]
-   22 |  char xoro;
-      |       ^~~~
-gcc -o XOGame.exe XO.o main.o 
-19:23:48 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-19:39:08 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:21:7: warning: variable 'xoro' set but not used [-Wunused-but-set-variable]
-   21 |  char xoro;
-      |       ^~~~
-..\main.c:20:26: warning: unused variable 'result' [-Wunused-variable]
-   20 |  int player = 1, choice, result;/*1 or 2*/
-      |                          ^~~~~~
-gcc -o XOGame.exe XO.o main.o 
-19:50:15 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c:15:5: error: conflicting types for 'player'
-   15 | int player = 1, choice;
-      |     ^~~~~~
-In file included from ..\main.c:12:
-..\xo.h:11:13: note: previous declaration of 'player' was here
-   11 | extern char player;
-      |             ^~~~~~
-19:51:19 **** Incremental Build of configuration Debug for project XOGame ****
+..\main.c: In function 'isBalanced':
+..\main.c:71:10: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+   71 |  uint8_t ch;
+      |          ^~
+gcc -o Stack.exe main.o stack_APIs.o 
+Info: Nothing to build for Stack
+Info: Nothing to build for Stack
+23:54:59 **** Incremental Build of configuration Debug for project Stack ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-19:57:22 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-19:59:37 **** Incremental Build of configuration Debug for project XOGame ****
+..\main.c: In function 'isBalanced':
+..\main.c:71:7: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+   71 |  char ch;
+      |       ^~
+gcc -o Stack.exe main.o stack_APIs.o 
+Info: Nothing to build for Stack
+23:57:28 **** Incremental Build of configuration Debug for project Stack ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:00:31 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:01:24 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:02:20 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:03:29 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:10:58 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:13:05 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:15:00 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:15:25 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:15:54 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:16:25 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:32:34 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:34:11 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:35:47 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-20:56:06 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:57:42 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-20:59:42 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:11:32 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:13:13 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:14:08 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:15:44 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c:86:2: error: expected identifier or '(' before 'return'
-   86 |  return 0;
-      |  ^~~~~~
-..\main.c:87:1: error: expected identifier or '(' before '}' token
-   87 | }
-      | ^
-21:16:00 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-Info: Nothing to build for XOGame
-21:21:03 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:27:12 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-21:27:23 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-21:38:34 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:50:55 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-..\XO.c: In function 'game':
-..\XO.c:23:16: error: 'choice' undeclared (first use in this function)
-   23 |   scanf("%d", &choice);
-      |                ^~~~~~
-..\XO.c:23:16: note: each undeclared identifier is reported only once for each function it appears in
-21:51:28 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:51:51 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-21:52:02 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-21:54:09 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-21:58:22 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:02:24 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-22:03:29 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:03:49 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:03:54 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:05:01 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-22:07:34 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-22:09:33 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:09:43 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:09:59 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:12:18 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-22:13:12 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:14:07 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-22:15:41 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file XOGame.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:26:04 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
-22:44:01 **** Incremental Build of configuration Debug for project XOGame ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o XO.o "..\\XO.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o XOGame.exe XO.o main.o 
-Info: Nothing to build for XOGame
+..\main.c: In function 'isBalanced':
+..\main.c:69:7: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+   69 |  char ch;
+      |       ^~
+gcc -o Stack.exe main.o 
+Info: Nothing to build for Stack
