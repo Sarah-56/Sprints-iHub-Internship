@@ -1,29 +1,1712 @@
-19:31:48 **** Incremental Build of configuration Debug for project LED_Timer ****
+19:10:49 **** Incremental Build of configuration Debug for project air_conditioner ****
 make all 
+Building file: ../motor_driver/motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"motor_driver/motor.d" -MT"motor_driver/motor.o" -c -o "motor_driver/motor.o" "../motor_driver/motor.c"
+In file included from ../motor_driver/../micro_config.h:21,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:9:1: warning: "DDRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:254:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:10:1: warning: "PORTA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:264:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:11:1: warning: "PINA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:244:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:13:1: warning: "DDRB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:224:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:14:1: warning: "PORTD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:174:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:15:1: warning: "PINB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:214:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:17:1: warning: "DDRC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:194:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:18:1: warning: "PORTC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:204:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:19:1: warning: "PINC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:184:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:21:1: warning: "DDRD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:164:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:22:1: warning: "PORTD" redefined
+../motor_driver/../registers.h:14:1: warning: this is the location of the previous definition
+../motor_driver/../registers.h:23:1: warning: "PIND" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:154:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:34:1: warning: "SREG" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:410,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:37:1: warning: "TCCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:393:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:46:1: warning: "TCNT0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:391:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:47:1: warning: "OCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:472:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:48:1: warning: "TIMSK" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:450:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:58:1: warning: "TCNT1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:348:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:59:1: warning: "TCCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:362:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:68:1: warning: "OCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:342:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:69:1: warning: "OCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:336:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:71:1: warning: "TCCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:353:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:80:1: warning: "TCNT2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:317:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:81:1: warning: "OCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:315:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:82:1: warning: "TCCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:319:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:86:1: warning: "ICR1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:330:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:89:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:93:1: warning: this is the location of the previous definition
+In file included from ../motor_driver/../micro_config.h:22,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+../motor_driver/../registers.h:90:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../motor_driver/../micro_config.h:20,
+                 from ../motor_driver/motor.h:12,
+                 from ../motor_driver/motor.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:83:1: warning: this is the location of the previous definition
+Finished building: ../motor_driver/motor.c
+ 
+Building file: ../keypad_driver/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"keypad_driver/keypad.d" -MT"keypad_driver/keypad.o" -c -o "keypad_driver/keypad.o" "../keypad_driver/keypad.c"
+In file included from ../keypad_driver/../micro_config.h:21,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:9:1: warning: "DDRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:254:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:10:1: warning: "PORTA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:264:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:11:1: warning: "PINA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:244:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:13:1: warning: "DDRB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:224:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:14:1: warning: "PORTD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:174:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:15:1: warning: "PINB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:214:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:17:1: warning: "DDRC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:194:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:18:1: warning: "PORTC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:204:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:19:1: warning: "PINC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:184:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:21:1: warning: "DDRD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:164:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:22:1: warning: "PORTD" redefined
+../keypad_driver/../registers.h:14:1: warning: this is the location of the previous definition
+../keypad_driver/../registers.h:23:1: warning: "PIND" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:154:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:34:1: warning: "SREG" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:410,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:37:1: warning: "TCCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:393:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:46:1: warning: "TCNT0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:391:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:47:1: warning: "OCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:472:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:48:1: warning: "TIMSK" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:450:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:58:1: warning: "TCNT1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:348:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:59:1: warning: "TCCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:362:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:68:1: warning: "OCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:342:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:69:1: warning: "OCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:336:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:71:1: warning: "TCCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:353:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:80:1: warning: "TCNT2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:317:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:81:1: warning: "OCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:315:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:82:1: warning: "TCCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:319:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:86:1: warning: "ICR1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:330:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:89:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:93:1: warning: this is the location of the previous definition
+In file included from ../keypad_driver/../micro_config.h:22,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+../keypad_driver/../registers.h:90:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../keypad_driver/../micro_config.h:20,
+                 from ../keypad_driver/keypad.h:15,
+                 from ../keypad_driver/keypad.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:83:1: warning: this is the location of the previous definition
+Finished building: ../keypad_driver/keypad.c
+ 
+Building file: ../LCD_driver/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_driver/lcd.d" -MT"LCD_driver/lcd.o" -c -o "LCD_driver/lcd.o" "../LCD_driver/lcd.c"
+In file included from ../LCD_driver/../micro_config.h:21,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:9:1: warning: "DDRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:254:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:10:1: warning: "PORTA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:264:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:11:1: warning: "PINA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:244:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:13:1: warning: "DDRB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:224:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:14:1: warning: "PORTD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:174:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:15:1: warning: "PINB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:214:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:17:1: warning: "DDRC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:194:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:18:1: warning: "PORTC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:204:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:19:1: warning: "PINC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:184:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:21:1: warning: "DDRD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:164:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:22:1: warning: "PORTD" redefined
+../LCD_driver/../registers.h:14:1: warning: this is the location of the previous definition
+../LCD_driver/../registers.h:23:1: warning: "PIND" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:154:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:34:1: warning: "SREG" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:410,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:37:1: warning: "TCCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:393:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:46:1: warning: "TCNT0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:391:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:47:1: warning: "OCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:472:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:48:1: warning: "TIMSK" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:450:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:58:1: warning: "TCNT1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:348:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:59:1: warning: "TCCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:362:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:68:1: warning: "OCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:342:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:69:1: warning: "OCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:336:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:71:1: warning: "TCCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:353:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:80:1: warning: "TCNT2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:317:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:81:1: warning: "OCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:315:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:82:1: warning: "TCCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:319:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:86:1: warning: "ICR1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:330:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:89:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:93:1: warning: this is the location of the previous definition
+In file included from ../LCD_driver/../micro_config.h:22,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+../LCD_driver/../registers.h:90:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../LCD_driver/../micro_config.h:20,
+                 from ../LCD_driver/lcd.h:14,
+                 from ../LCD_driver/lcd.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:83:1: warning: this is the location of the previous definition
+../LCD_driver/lcd.c: In function 'LCD_intgerToString':
+../LCD_driver/lcd.c:105: warning: implicit declaration of function 'itoa'
+Finished building: ../LCD_driver/lcd.c
+ 
+Building file: ../Application/app.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Application/app.d" -MT"Application/app.o" -c -o "Application/app.o" "../Application/app.c"
+In file included from ../Application/../micro_config.h:21,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:9:1: warning: "DDRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:254:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:10:1: warning: "PORTA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:264:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:11:1: warning: "PINA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:244:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:13:1: warning: "DDRB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:224:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:14:1: warning: "PORTD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:174:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:15:1: warning: "PINB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:214:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:17:1: warning: "DDRC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:194:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:18:1: warning: "PORTC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:204:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:19:1: warning: "PINC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:184:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:21:1: warning: "DDRD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:164:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:22:1: warning: "PORTD" redefined
+../Application/../registers.h:14:1: warning: this is the location of the previous definition
+../Application/../registers.h:23:1: warning: "PIND" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:154:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:34:1: warning: "SREG" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:410,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:37:1: warning: "TCCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:393:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:46:1: warning: "TCNT0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:391:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:47:1: warning: "OCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:472:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:48:1: warning: "TIMSK" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:450:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:58:1: warning: "TCNT1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:348:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:59:1: warning: "TCCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:362:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:68:1: warning: "OCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:342:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:69:1: warning: "OCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:336:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:71:1: warning: "TCCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:353:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:80:1: warning: "TCNT2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:317:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:81:1: warning: "OCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:315:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:82:1: warning: "TCCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:319:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:86:1: warning: "ICR1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:330:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:89:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:93:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+../Application/../registers.h:90:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../Application/app.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:83:1: warning: this is the location of the previous definition
+Finished building: ../Application/app.c
+ 
+Building file: ../ADC_driver/adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ADC_driver/adc.d" -MT"ADC_driver/adc.o" -c -o "ADC_driver/adc.o" "../ADC_driver/adc.c"
+In file included from ../ADC_driver/../micro_config.h:21,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:9:1: warning: "DDRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:254:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:10:1: warning: "PORTA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:264:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:11:1: warning: "PINA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:244:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:13:1: warning: "DDRB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:224:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:14:1: warning: "PORTD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:174:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:15:1: warning: "PINB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:214:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:17:1: warning: "DDRC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:194:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:18:1: warning: "PORTC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:204:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:19:1: warning: "PINC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:184:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:21:1: warning: "DDRD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:164:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:22:1: warning: "PORTD" redefined
+../ADC_driver/../registers.h:14:1: warning: this is the location of the previous definition
+../ADC_driver/../registers.h:23:1: warning: "PIND" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:154:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:34:1: warning: "SREG" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:410,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:37:1: warning: "TCCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:393:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:46:1: warning: "TCNT0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:391:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:47:1: warning: "OCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:472:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:48:1: warning: "TIMSK" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:450:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:58:1: warning: "TCNT1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:348:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:59:1: warning: "TCCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:362:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:68:1: warning: "OCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:342:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:69:1: warning: "OCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:336:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:71:1: warning: "TCCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:353:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:80:1: warning: "TCNT2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:317:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:81:1: warning: "OCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:315:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:82:1: warning: "TCCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:319:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:86:1: warning: "ICR1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:330:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:89:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:93:1: warning: this is the location of the previous definition
+In file included from ../ADC_driver/../micro_config.h:22,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+../ADC_driver/../registers.h:90:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../ADC_driver/../micro_config.h:20,
+                 from ../ADC_driver/adc.h:14,
+                 from ../ADC_driver/adc.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:83:1: warning: this is the location of the previous definition
+Finished building: ../ADC_driver/adc.c
+ 
 Building file: ../main.c
 Invoking: AVR Compiler
 avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../Application/../micro_config.h:21,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:9:1: warning: "DDRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:254:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:10:1: warning: "PORTA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:264:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:11:1: warning: "PINA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:244:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:13:1: warning: "DDRB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:224:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:14:1: warning: "PORTD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:174:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:15:1: warning: "PINB" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:214:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:17:1: warning: "DDRC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:194:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:18:1: warning: "PORTC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:204:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:19:1: warning: "PINC" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:184:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:21:1: warning: "DDRD" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:164:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:22:1: warning: "PORTD" redefined
+../Application/../registers.h:14:1: warning: this is the location of the previous definition
+../Application/../registers.h:23:1: warning: "PIND" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:154:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:34:1: warning: "SREG" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:410,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:37:1: warning: "TCCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:393:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:46:1: warning: "TCNT0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:391:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:47:1: warning: "OCR0" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:472:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:48:1: warning: "TIMSK" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:450:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:58:1: warning: "TCNT1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:348:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:59:1: warning: "TCCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:362:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:68:1: warning: "OCR1A" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:342:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:69:1: warning: "OCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:336:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:71:1: warning: "TCCR1B" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:353:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:80:1: warning: "TCNT2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:317:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:81:1: warning: "OCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:315:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:82:1: warning: "TCCR2" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:319:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:86:1: warning: "ICR1" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:330:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:89:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:93:1: warning: this is the location of the previous definition
+In file included from ../Application/../micro_config.h:22,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+../Application/../registers.h:90:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:236,
+                 from c:/winavr-20100110/lib/gcc/../../avr/include/avr/interrupt.h:38,
+                 from ../Application/../micro_config.h:20,
+                 from ../Application/app.h:12,
+                 from ../main.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom16.h:83:1: warning: this is the location of the previous definition
 Finished building: ../main.c
  
-Building target: LED_Timer.elf
+Building target: air_conditioner.elf
 Invoking: AVR C Linker
-avr-gcc -Wl,-Map,LED_Timer.map -mmcu=atmega16 -o "LED_Timer.elf"  ./main.o   
-Finished building target: LED_Timer.elf
+avr-gcc -Wl,-Map,air_conditioner.map -mmcu=atmega16 -o "air_conditioner.elf"  ./motor_driver/motor.o  ./keypad_driver/keypad.o  ./LCD_driver/lcd.o  ./Application/app.o  ./ADC_driver/adc.o  ./main.o   
+Finished building target: air_conditioner.elf
  
 Invoking: AVR Create Extended Listing
-avr-objdump -h -S LED_Timer.elf  >"LED_Timer.lss"
-Finished building: LED_Timer.lss
+avr-objdump -h -S air_conditioner.elf  >"air_conditioner.lss"
+Finished building: air_conditioner.lss
  
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega16 LED_Timer.elf
+avr-size --format=avr --mcu=atmega16 air_conditioner.elf
 AVR Memory Usage
 ----------------
 Device: atmega16
 
-Program:     330 bytes (2.0% Full)
+Program:    8436 bytes (51.5% Full)
 (.text + .data + .bootloader)
 
-Data:          1 bytes (0.1% Full)
+Data:        285 bytes (27.8% Full)
 (.data + .bss + .noinit)
 
 

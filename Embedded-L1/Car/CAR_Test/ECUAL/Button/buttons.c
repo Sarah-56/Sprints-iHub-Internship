@@ -2,7 +2,7 @@
  * buttons.c
  *
  *  Created on: Sep 5, 2021
- *      Author: Lenovo
+ *      Author: Basmala
  */
 
 #include "buttons.h"
@@ -16,12 +16,4 @@ void button_init(){
 uint8_t button_read(){
 	Read_Port(&PORTa);
 	return PORTa.Data & 0x0F;
-}
-uint8_t read_L(void){
-	Read_Port(&PORTa);
-	if(PORTa.Data & 0x01){
-		return 1;
-	}
-	return 0;
-
 }

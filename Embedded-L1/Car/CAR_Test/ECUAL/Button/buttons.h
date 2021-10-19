@@ -2,7 +2,7 @@
  * buttons.h
  *
  *  Created on: Sep 5, 2021
- *      Author: Lenovo
+ *      Author: Basmala
  */
 
 #ifndef ECUAL_BUTTON_BUTTONS_H_
@@ -12,14 +12,6 @@
 #include "../../common_macros.h"
 #include "../../registers.h"
 #include "../../MCAL/DIO/DIO.h"
-
-/*******************************************************************************
- *                      Preprocessor Macros                                    *
- *******************************************************************************/
-#define L 0
-#define R 1
-#define M 2
-#define G 3
 
 /*******************************************************************************
  *                      Functions Prototypes                                   *
